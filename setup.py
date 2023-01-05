@@ -59,18 +59,18 @@ _TEST_REQUIREMENTS = _parse_requirements(os.path.join(
     _CURRENT_DIR, "requirements", "requirements_tests.txt"))
 
 setup(
-    name="lightweight_mmm",
+    name="lw_mmm",
     version=_VERSION,
     description="Package for Media-Mix-Modelling",
     long_description="\n".join([_README]),
     long_description_content_type="text/markdown",
     author="Google LLC",
-    author_email="no-reply@google.com",
+    author_email="altunumut13@gmail.com",
     license="Apache 2.0",
     packages=find_packages(),
     install_requires=_INSTALL_REQUIREMENTS,
     tests_require=_TEST_REQUIREMENTS,
-    url="https://github.com/google/lightweight_mmm",
+    url="https://github.com/altunumut24/LW_mmm",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
